@@ -67,9 +67,6 @@ route.post("/mult",[
 
 );
 
-
-
-
 route.post("/div",[
     body("valueOne")
     .exists()
